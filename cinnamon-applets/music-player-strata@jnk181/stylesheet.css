@@ -1,0 +1,73 @@
+.music-container-main {
+    background-color: #1a1a1a;
+    padding:0px;
+    margin-bottom:4px;
+    height:29px;
+    border:1px solid gray;
+    border-radius:5px;
+    border-image:url(./assets/border0.svg) 5;
+}
+
+.music-container {
+    border-radius:5px;
+}
+
+.title-label {
+    font-weight: bold;
+    font-size: 10pt;
+    color: white;
+    text-align:left;
+    text-shadow: 2px 2px 4px black;
+}
+
+.artist-label {
+    font-size: 9pt;
+    color: #bbb;
+    text-align:left;
+    text-shadow: 2px 2px 4px black;
+}
+
+.controls-box {
+    margin:2px;
+}
+
+.controls-box StButton {
+    background-color: #333;
+    border-radius: 3px;
+    margin: 1px;
+    padding: 2px 2px;
+    border-image:url(./assets/border1.svg) 5;
+    transition-duration: 150;
+}
+
+.controls-box StButton:hover {
+    border-image:url(./assets/border1-hover.svg) 5;
+}
+
+.controls-box .controls-box-playbtn {
+    border-image:url(./assets/border2.svg) 5;
+}
+
+.controls-box .controls-box-playbtn:hover {
+    border-image:url(./assets/border2-hover.svg) 5;
+}
+
+.controls-box StButton:hover {
+    background-color: #444;
+    filter: brightness(2);
+}
+
+.cover-art-bin {
+    margin:3px;
+    margin-right:6px;
+    border:1px solid black;
+    box-sizing: border-box;
+    border-radius:3px;
+    overflow:hidden;
+    max-height: 32px;
+}
+
+.my-bg-box {
+    border-radius:3px;
+    margin:2px;
+}

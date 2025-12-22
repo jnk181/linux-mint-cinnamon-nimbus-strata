@@ -1,0 +1,20 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.5" y="0.5" width="35" height="35" rx="4.5" fill="url(#paint0_linear_405_5)" fill-opacity="0.88" stroke="url(#paint1_linear_405_5)"/>
+<rect x="1.5" y="1.5" width="33" height="33" rx="3.5" stroke="url(#paint2_linear_405_5)"/>
+<defs>
+<linearGradient id="paint0_linear_405_5" x1="18" y1="0" x2="18" y2="36" gradientUnits="userSpaceOnUse">
+<stop stop-color="#464646" stop-opacity="0.8"/>
+<stop offset="0.5" stop-color="#5E5E5E" stop-opacity="0.8"/>
+<stop offset="0.5" stop-color="#535353"/>
+<stop offset="1" stop-color="#171717"/>
+</linearGradient>
+<linearGradient id="paint1_linear_405_5" x1="18" y1="0" x2="18" y2="36" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0.63"/>
+<stop offset="1" stop-opacity="0.22"/>
+</linearGradient>
+<linearGradient id="paint2_linear_405_5" x1="18" y1="1" x2="18" y2="35" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0.63"/>
+<stop offset="1" stop-color="white" stop-opacity="0.22"/>
+</linearGradient>
+</defs>
+</svg>

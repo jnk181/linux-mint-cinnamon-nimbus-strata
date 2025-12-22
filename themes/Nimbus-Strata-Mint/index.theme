@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Nimbus-Strata-Mint
+Comment=Based on SolarisOS' Nimbus.
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Nimbus-Strata-Mint
+MetacityTheme=Nimbus-Strata-Mint
+IconTheme=nimbus-strata-icon-theme
+CursorTheme=default
