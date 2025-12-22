@@ -1,5 +1,9 @@
 # Nimbus Strata for Cinnamon
 
+<p align="center">
+  <img src="images/desktop.webp" alt="Nimbus Strata Preview" width="100%">
+</p>
+
 **Creator:** jnk181
 **License:** GNU GPL v3.0
 
