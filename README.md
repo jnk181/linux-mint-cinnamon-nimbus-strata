@@ -10,6 +10,9 @@
 ## Description
 A comprehensive suite for the Cinnamon desktop including custom Applets, Themes (Cinnamon/GTK), and utility scripts.
 
+## Recommended assets
+- https://github.com/jnk181/nimbus-strata-icon-theme
+
 ## Credits & Acknowledgments
 - **Design & Assembly:** jnk181
 - **Base Theme:** Based on the Mint-X theme by the Linux Mint Team (GPL-3.0).
