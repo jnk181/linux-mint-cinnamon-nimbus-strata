@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="210"
+   height="1"
+   viewBox="0 0 210 1"
+   fill="none"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="separator.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview17"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="70.252742"
+     inkscape:cx="105.93181"
+     inkscape:cy="0.80423907"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="41"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg15" />
+  <path
+     d="M -0.00118577,1.1043281 210.00119,1.1043292"
+     stroke="url(#paint0_linear_48_92)"
+     stroke-opacity="0.38"
+     stroke-width="2.64291"
+     id="path2"
+     style="stroke:url(#paint0_linear_48_92)" />
+  <defs
+     id="defs13">
+    <linearGradient
+       id="paint0_linear_48_92"
+       x1="-4.3711399e-08"
+       y1="6"
+       x2="210"
+       y2="6.00002"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0000113,0,0,0.05772653,-0.00118577,0.78683214)">
+      <stop
+         stop-color="#BCFF92"
+         stop-opacity="0"
+         id="stop4" />
+      <stop
+         offset="0.225962"
+         stop-color="#BCFF92"
+         id="stop6" />
+      <stop
+         offset="0.793269"
+         stop-color="#BCFF92"
+         id="stop8" />
+      <stop
+         offset="1"
+         stop-color="#BCFF92"
+         stop-opacity="0"
+         id="stop10" />
+    </linearGradient>
+  </defs>
+</svg>

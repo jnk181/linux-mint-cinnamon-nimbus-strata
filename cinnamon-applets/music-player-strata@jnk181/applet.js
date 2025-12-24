@@ -331,9 +331,9 @@ MyApplet.prototype = {
             let cover_path = "";
             if (coverfilepath.match(/^http/)) {
                 if (!this._trackCoverFileTmp)
-                    this._trackCoverFileTmp = Gio.file_new_tmp('XXXXXX.mediaplayer-cover')[0];
-                global.log(`preparing tmp: ${this._trackCoverFileTmp.get_path()}`,['wget', '-q', this._trackCoverFile, '-O', this._trackCoverFileTmp.get_path()])
-                let argv = ['wget', '-q', coverfilepath, '-O', this._trackCoverFileTmp.get_path()];
+                    this._trackCoverFileTmp = `/tmp/mediaplayer-${Date.now().png}`;
+                global.log(`preparing tmp: ${this._trackCoverFileTmp}`,['wget', '-q', this._trackCoverFile, '-O', this._trackCoverFileTmp])
+                let argv = ['wget', '-q', coverfilepath, '-O', this._trackCoverFileTmp];
 
                 let [success, pid] = GLib.spawn_async(
                     null, 
@@ -349,7 +349,7 @@ MyApplet.prototype = {
 
                         if (status === 0) {
                             global.log(`downloaded: ${coverfilepath}`)
-                            let cover_path = this._trackCoverFileTmp.get_path();
+                            let cover_path = this._trackCoverFileTmp;
                             this._showCover(cover_path);
                             global.log(`cover applied!: ${cover_path}`)
                         } else {

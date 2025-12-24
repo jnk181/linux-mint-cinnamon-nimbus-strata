@@ -1,0 +1,101 @@
+.calendar-main-box {
+    margin:0;
+}
+
+.widget-calendar-main {
+    margin: 0 10px;
+    border-image: url(./assets/section-bk.png) 8;
+}
+
+.calendar-column-left {
+
+}
+
+.calendar-column-right {
+    padding-right:15px;
+}
+
+.widget-calendar-image {
+    background:pink;
+    background-image: url(./assets/monthly-images/12/forest.jpg);
+    background-size:cover;
+    border-radius:8px;
+    border:1px solid #53763E;
+    margin:10px;
+}
+
+.month-nav-box {
+    padding-left:15px; padding-right:15px;
+    margin-bottom:5px;
+}
+
+.month-label {
+    text-align: center;
+    font-size:15px;
+    font-weight: bold;
+    margin-bottom:4px;
+}
+
+.calendar-separator {
+    height: 1px;
+    background-image: url(./assets/separator.svg);
+    background-repeat: no-repeat;
+    background-size:100% 1px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.calendar-grid-row-header,
+.calendar-grid-row {
+    text-align: center;
+    margin:0 10px;
+    color:white;
+    font-size:14px;
+}
+
+.calendar-grid-row-header {
+    color:rgba(255, 255, 255, 0.651);
+}
+
+.calendar-grid-row-day {
+    text-align: center;
+}
+
+.calendar-grid-row-day-other-month {
+    color:rgba(255, 255, 255, 0.267);
+}
+
+.calendar-grid-row-day-current-day {
+    border-image: url(./assets/day-current.svg) 4;
+}
+
+.analog-clock-face {
+    background-image:url(./assets/clock/face-bk.png);
+    background-size:cover;
+}
+
+.analog-clock-hourhand {
+    background-image:url(./assets/clock/arrow-hour.png);
+    background-size:cover;
+}
+
+.analog-clock-minhand {
+    background-image:url(./assets/clock/arrow-min.png);
+    background-size:cover;
+}
+
+.analog-clock-sechand {
+    background-image:url(./assets/clock/arrow-sec.png);
+    background-size:cover;
+}
+
+.digital-clock-widget {
+    margin-top:5px;
+    font-size:20px;
+    color:white;
+    margin-bottom:5px;
+}
+
+.events-box-widget {
+    border-image: url(./assets/section-bk.png) 8;
+}

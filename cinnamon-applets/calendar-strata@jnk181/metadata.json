@@ -1,0 +1,9 @@
+{
+    "uuid": "calendar-strata@jnk181",
+    "name": "Calendar Strata",
+    "description": "A glassmorphism flyout calendar with schedule and analog clock. Includes assets designed by wirestock on Freepik.",
+    "icon": "office-calendar",
+    "version": "1.0.0",
+    "role": "notifications",
+    "prevent-attachment": false
+}
